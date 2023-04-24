@@ -1,10 +1,13 @@
+
+
+
 @font-face{
     font-family: thewitcher;
     src: url(Multimedia/Thewitcher-jnOj.ttf);
 }
 
 .navbar{
-    height: 60px !important;
+    /* height: 60px !important; */
     background-color: rgb(20, 20, 20);
     border-bottom: 3px outset #2e2e2e ;
 }
@@ -18,7 +21,7 @@
     border: 3px outset rgb(66, 32, 0);
     padding-left: 10px !important;
     background-color:rgb(66, 32, 0);
-    margin: 10px;
+    margin: 2px 10px 2px 10px;
     color: rgb(230, 173, 100) !important;
     transition: 0.5s;
 }
@@ -55,7 +58,7 @@
 
 main{
     background-image: url(Multimedia/zZLPZaO.jpg);
-    height: calc(100vh);
+    height:auto;
     width: auto;
     background-color: #333; 
     background-size: cover;
@@ -89,3 +92,138 @@ main{
     height: 250px;
     margin-top: 20px;
 }
+
+.imagenes{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.principal{
+    border-radius: 5px;
+    display: flex;
+    height: 110px;
+    width: 200px;
+    background-image: url(./Multimedia/The-Witcher-3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    filter: grayscale(100%);
+}
+
+.principal:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    filter: none;
+}
+
+.primerdlc{
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    height: 110px;
+    width: 200px;
+    background-image: url(./Multimedia/Tw3_expansion_pack_hos.jpg) ;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    filter: grayscale(100%);
+}
+
+.primerdlc:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    filter: none;
+}
+
+.segundodlc{
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    height: 110px;
+    width: 200px;
+    background-image: url(./Multimedia/the_witcher_3_blood_and_wine_expansion_art_1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    filter: grayscale(100%);
+}
+
+.segundodlc:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    filter: none;
+}
+
+.nombres{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nombres a{
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(230, 173, 100);
+    font-family: thewitcher;
+}
+
+.nombres a:hover{
+    text-shadow: 0px 0px 5px darkred;
+    color:rgb(224, 184, 131)
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.imgCarousel{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    color: rgb(230, 173, 100);
+    font-family: thewitcher;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    border-top: 3px intset #2e2e2e;
+    height: auto;
+}
+
+.webOficial{
+    margin-top: 10px;
+    background-color: aliceblue;
+    height: 40px;
+    width: 40px;
+    background-image: url(./Multimedia/pngegg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.tituloWeb{
+    margin-bottom: 10px;
+    position: absolute;
+    left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
