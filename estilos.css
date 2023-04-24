@@ -1,0 +1,61 @@
+@font-face{
+    font-family: thewitcher;
+    src: url(Multimedia/Thewitcher-jnOj.ttf);
+}
+
+.navbar{
+    background-color: rgb(20, 20, 20);
+    border-bottom: 3px outset #2e2e2e ;
+}
+
+.nav-item{
+    font-family: thewitcher , 'Times New Roman', Times, serif;
+}
+
+.nav-link{
+    border: 3px outset rgb(66, 32, 0);
+    padding-left: 10px !important;
+    background-color:rgb(66, 32, 0);
+    margin: 10px;
+    color: rgb(230, 173, 100) !important;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    border-color:rgb(83, 41, 1) ;
+    background-color: rgb(83, 41, 1);
+    color:rgb(224, 184, 131);
+    text-shadow: 0px 0px 5px rgb(219, 219, 219);
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+.navbar-toggler{
+    border: 3px outset rgb(66, 32, 0);
+    padding: 5px;
+    background-color:rgb(66, 32, 0);
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.navbar-toggler:hover{
+    border-color:rgb(83, 41, 1) ;
+    background-color: rgb(83, 41, 1);
+    color:rgb(224, 184, 131);
+    text-shadow: 0px 0px 5px rgb(219, 219, 219);
+    transition: 0.2s;
+    transform: scale(0.9);
+}
+
+.fa-bars{
+    color: rgb(230, 173, 100);
+}
+
+main{
+    background-image: url(Multimedia/zZLPZaO.jpg);
+    height: calc(100vh);
+    width: auto;
+    background-color: #333; 
+    background-size: cover;
+    background-position: center; 
+}
