@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 @font-face{
@@ -57,7 +61,7 @@
 }
 
 main{
-    background-image: url(Multimedia/zZLPZaO.jpg);
+    background-image: url(./Multimedia/zZLPZaO.jpg);
     height:auto;
     width: auto;
     background-color: #333; 
@@ -196,34 +200,84 @@ footer{
     background-color: rgb(20, 20, 20);
     border-top: 3px intset #2e2e2e;
     height: auto;
+    width: 100%;
 }
 
-.webOficial{
-    margin-top: 10px;
-    background-color: aliceblue;
-    height: 40px;
-    width: 40px;
-    background-image: url(./Multimedia/pngegg.png);
-    background-size: cover;
-    background-position: center;
+.redes{
+    font-size: 30px;
+    
 }
 
-.tituloWeb{
-    margin-bottom: 10px;
-    position: absolute;
-    left: 5%;
+.redes li{
+    list-style: none;
+    display: inline-block;
+}
+
+.redes a{
+    border: 3px outset rgb(66, 32, 0);
+    padding: 5px;
+    background-color:rgb(66, 32, 0);
+    margin: 10px;
+    color: rgb(230, 173, 100);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.redes a:hover{
+    border-color:rgb(83, 41, 1) ;
+    background-color: rgb(83, 41, 1);
+    color:rgb(224, 184, 131);
+    text-shadow: 0px 0px 5px rgb(219, 219, 219);
+    transition: 0.3s;
 }
 
 
 
 
 
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+.cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
 
+.mainHistoria{
+    margin: 15px;
+    height: auto;
+    width: 380px;
+}
 
+.cont2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
 
+.dlc1{
+    height: auto;
+    width: 380px;
+    margin: 15px;
+}
 
+.cont3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
 
+.dlc2{
+    height: auto;
+    width: 380px;
+    margin: 15px;
+}
 
-
-
+h2{
+    padding: 10px;
+    border-bottom: 5px solid rgb(65, 38, 5);
+    text-shadow: 0 0 5px #333 ;
+    color: rgb(230, 173, 100);
+    background-color: rgb(49, 29, 4);
+    font-family: thewitcher;
+}
