@@ -256,6 +256,16 @@ footer{
     background-position: center;
 }
 
+.lista1{
+    margin: 50px 10px;
+}
+
+.trailerP{
+    margin: 15px;
+    margin-top: 65px;
+}
+
+
 .cont2{
     display: flex;
     flex-direction: row;
@@ -264,12 +274,22 @@ footer{
 
 .img2{
     margin: 10px;
-    height: 200px;
+    height: auto;
     width: 380px;
     background-color: #333;
     background-image: url(./Multimedia/Tw3_expansion_pack_hos.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.lista2{
+    margin: 50px 10px;
+}
+
+
+.trailerHos{
+    margin: 15px;
+    margin-top: 65px;
 }
 
 .cont3{
@@ -280,7 +300,7 @@ footer{
 
 .img3{
     margin: 10px;
-    height: 200px;
+    height: auto;
     width: 380px;
     background-color: #333;
     background-image: url(./Multimedia/the_witcher_3_blood_and_wine_expansion_art_1.jpg);
@@ -288,8 +308,17 @@ footer{
     background-position: center;
 }
 
+.lista3{
+    margin: 50px 10px;
+}
+
+.trailerBaw{
+    margin: 15px;
+    margin-top: 65px;
+}
+
 h2{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     padding: 10px;
     border-bottom: 5px solid rgb(65, 38, 5);
@@ -297,15 +326,12 @@ h2{
     color: rgb(230, 173, 100);
     background-color: rgb(49, 29, 4);
     font-family: thewitcher;
+    text-shadow: 4px 2px 2px black;
 }
 
-.lista1{
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 .subtitulo{
+    font-size: 13px;
     color: rgb(230, 173, 100);
     list-style: upper-roman;
 }
@@ -315,10 +341,7 @@ h2{
     text-decoration: none;
 }
 
-.trailer1{
-    margin: 15px;
-    margin-top: 65px;
-}
+
 
 
 
@@ -338,6 +361,8 @@ h2{
 
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Media Query para Index */
+
 @media only screen and (min-width:0px){
     .container{
         width: 75%;
@@ -396,4 +421,230 @@ h2{
     .redes{
         font-size: 30px;
 }
+}
+
+@media only screen and (min-width:1024px){
+    .principal{
+        height: 160px;
+        width: 280px;
+    }
+
+    .primerdlc{
+        height: 160px;
+        width: 280px;
+    }
+
+    .segundodlc{
+        height: 160px;
+        width: 280px;
+    }
+
+    .nombres a{
+        font-size: 14px;
+    }
+}
+
+/* Media Query para Historia */
+
+@media only screen and (min-width:0px){
+    .cont1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img1{
+        width: auto;
+        height: 200px;
+    }
+
+    .lista1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .trailerP{
+        display: none;
+    }
+
+
+    .cont2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img2{
+        width: auto;
+        height: 200px;
+    }
+
+    .lista2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .trailerHos{
+        display: none;
+    }
+
+    .cont3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img3{
+        width: auto;
+        height: 200px;
+    }
+
+    .lista3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .trailerBaw{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width:468px){
+    .trailerP{
+        display: none;
+    }
+    .trailerHos{
+        display: none;
+    }
+    .trailerBaw{
+        display: none;
+    }
+
+    .subtitulo{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width:520px){
+    .img1{
+        height: 250px;
+    }
+
+    .img2{
+        height: 250px;
+    }
+
+    .img3{
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width:680px){
+    .img1{
+        height: 300px;
+    }
+
+    .img2{
+        height: 300px;
+    }
+
+    .img3{
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .cont1{
+        display: flex;
+        flex-direction: column;
+    }
+    .trailerP{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .trailerHos{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .trailerBaw{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .cont1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .cont2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .cont3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .img1{
+        background-size: cover;
+        background-position: center;
+        margin: 10px;
+        height: auto;
+        width: 300px;
+    }
+    .img2{
+        background-size: cover;
+        background-position: center;
+        margin: 10px;
+        height: auto;
+        width: 300px;
+    }
+    .img3{
+        background-size: cover;
+        background-position: center;
+        margin: 10px;
+        height: auto;
+        width: 300px;
+    }
+
+    .subtitulo{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .img1{
+        background-size: cover;
+        background-position: center;
+        margin: 10px;
+        height: auto;
+        width: 380px;
+    }
+    .img2{
+        background-size: cover;
+        background-position: center;
+        margin: 10px;
+        height: auto;
+        width: 380px;
+    }
+    .img3{
+        background-size: cover;
+        background-position: center;
+        margin: 10px;
+        height: auto;
+        width: 380px;
+    }
+
+    .subtitulo{
+        font-size: 16px;
+    }
 }
