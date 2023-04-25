@@ -239,45 +239,80 @@ footer{
 
 .cont1{
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.mainHistoria{
-    margin: 15px;
+.img1{
+    margin: 10px;
     height: auto;
     width: 380px;
+    background-color: #333;
+    background-image: url(./Multimedia/The-Witcher-3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .cont2{
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.dlc1{
-    height: auto;
+.img2{
+    margin: 10px;
+    height: 200px;
     width: 380px;
-    margin: 15px;
+    background-color: #333;
+    background-image: url(./Multimedia/Tw3_expansion_pack_hos.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .cont3{
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.dlc2{
-    height: auto;
+.img3{
+    margin: 10px;
+    height: 200px;
     width: 380px;
-    margin: 15px;
+    background-color: #333;
+    background-image: url(./Multimedia/the_witcher_3_blood_and_wine_expansion_art_1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 h2{
+    font-size: 30px;
+    text-align: center;
     padding: 10px;
     border-bottom: 5px solid rgb(65, 38, 5);
     text-shadow: 0 0 5px #333 ;
     color: rgb(230, 173, 100);
     background-color: rgb(49, 29, 4);
     font-family: thewitcher;
+}
+
+.lista1{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.subtitulo{
+    color: rgb(230, 173, 100);
+    list-style: upper-roman;
+}
+
+.subtitulo a{
+    color: rgb(230, 173, 100);
+    text-decoration: none;
+}
+
+.trailer1{
+    margin: 15px;
+    margin-top: 65px;
 }
