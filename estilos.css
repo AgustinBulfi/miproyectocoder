@@ -164,6 +164,7 @@ main{
 }
 
 .nombres{
+    margin-bottom: 10px;
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -185,7 +186,7 @@ main{
 .container{
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 40%;
+    width: 70%;
 }
 
 .imgCarousel{
@@ -194,6 +195,9 @@ main{
 }
 
 footer{
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
     color: rgb(230, 173, 100);
     font-family: thewitcher;
     text-align: center;
@@ -204,7 +208,7 @@ footer{
 }
 
 .redes{
-    font-size: 30px;
+    font-size: 20px;
     
 }
 
@@ -230,7 +234,6 @@ footer{
     text-shadow: 0px 0px 5px rgb(219, 219, 219);
     transition: 0.3s;
 }
-
 
 
 
@@ -315,4 +318,82 @@ h2{
 .trailer1{
     margin: 15px;
     margin-top: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width:0px){
+    .container{
+        width: 75%;
+    }
+
+    .imagenes{
+        display: none;
+    }
+
+    .nombres{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 468px) {
+    .container{
+        width: 60%;
+    }
+
+    .imagenes{
+        display: none;
+    }
+
+    .nombres{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container{
+        width: 50%;
+    }
+
+    .imagenes{
+            display: none;
+        }
+    
+    .nombres{
+            display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        display: none;
+    }
+
+    .imagenes{
+        display: flex;
+    }
+
+    .nombres{
+        display: flex;
+}
+
+    .redes{
+        font-size: 30px;
+}
 }
