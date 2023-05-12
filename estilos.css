@@ -536,6 +536,12 @@ h4 {
   border: 1px solid rgb(65, 38, 5);
   transition: 0.2s;
 }
+.caja a {
+  text-decoration: none;
+  color: rgb(230, 173, 100);
+  background-color: wheat;
+  font-size: 18px;
+}
 
 .caja:hover {
   transform: scale(1.05);
@@ -592,6 +598,88 @@ h4 {
   grid-area: caja10;
 }
 
+@media only screen and (max-width: 768px) {
+  h4 {
+    font-size: 30px;
+  }
+  .contenedor {
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "..... caja1 caja1 ....." "..... caja2 caja2 ....." "..... caja3 caja3 ....." "..... caja4 caja4 ....." "..... caja5 caja5 .....";
+  }
+  .caja {
+    margin-top: 20px;
+    height: 180px;
+  }
+  .contenedor2 {
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "..... caja6 caja6 ....." "..... caja7 caja7 ....." "..... caja8 caja8 ....." "..... caja9 caja9 ....." "..... caja10 caja10 .....";
+  }
+}
+sec {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #333;
+  margin: 10px 20px;
+  border: 3px outset #252525;
+  height: auto;
+}
+sec p {
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  color: whitesmoke;
+}
+
+h3 {
+  padding: 10px;
+  text-align: center;
+  font-family: TheWitcher;
+  color: rgb(230, 173, 100);
+  text-shadow: 2px 2px 5px black;
+}
+
+.contRow {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.contRow li {
+  font-size: 12px;
+  color: whitesmoke;
+}
+.contRow strong {
+  color: rgb(230, 173, 100);
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  padding: 20px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  sec p {
+    font-size: 15px;
+  }
+  .contRow {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .contRow li {
+    font-size: 14px;
+  }
+  .contRow strong {
+    font-size: 17px;
+  }
+}
 /* Media Query para Index */
 @media only screen and (min-width: 0px) {
   .container {

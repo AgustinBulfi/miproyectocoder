@@ -31,6 +31,13 @@ h4{
     background-image: url(Multimedia/Nithral.jpg);
     border: 1px solid rgb(65, 38, 5);
     transition: 0.2s;
+    
+    a{
+        text-decoration: none;
+        color: rgb(230, 173, 100);
+        background-color: wheat;
+        font-size: 18px;
+    }
 }
 .caja:hover{
     transform: scale(1.05);
@@ -82,3 +89,43 @@ h4{
 .caja10{
     grid-area: caja10;
 }
+
+
+@media only screen and (max-width: 768px) {
+    h4{
+        font-size: 30px;
+    }
+
+    .contenedor{
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+            "..... caja1 caja1 ....."
+            "..... caja2 caja2 ....."
+            "..... caja3 caja3 ....."
+            "..... caja4 caja4 ....."
+            "..... caja5 caja5 .....";
+    }
+
+    .caja{
+        margin-top: 20px;
+        height: 180px;
+    }
+
+
+    .contenedor2{
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+            "..... caja6 caja6 ....."
+            "..... caja7 caja7 ....."
+            "..... caja8 caja8 ....."
+            "..... caja9 caja9 ....."
+            "..... caja10 caja10 .....";
+    }
+}
+
