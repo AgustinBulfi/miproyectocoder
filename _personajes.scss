@@ -1,5 +1,4 @@
-
-h4{
+h4 {
     text-shadow: 2px 2px 5px black;
     text-align: center;
     padding-top: 30px;
@@ -7,7 +6,7 @@ h4{
     color: rgb(230, 173, 100);
 }
 
-.contenedor{
+.contenedor {
     padding: 10px 30px;
     width: 60%;
     height: 400px;
@@ -19,11 +18,13 @@ h4{
         "caja1 caja1 caja1 caja3 caja3"
         "caja4 caja4 caja5 caja3 caja3";
 }
-.secP{
+
+.secP {
     display: flex;
     justify-content: center;
 }
-.caja{
+
+.caja {
     box-shadow: 1px 1px 5px black;
     margin: 3px;
     background-position: center;
@@ -31,37 +32,44 @@ h4{
     background-image: url(Multimedia/Nithral.jpg);
     border: 1px solid rgb(65, 38, 5);
     transition: 0.2s;
-    
-    a{
+
+    a {
+        height: 100%;
+        width: 100%;
         text-decoration: none;
         color: rgb(230, 173, 100);
         background-color: wheat;
         font-size: 18px;
     }
 }
-.caja:hover{
+
+.caja:hover {
     transform: scale(1.05);
     transition: 0.2s;
-    }
+}
 
 
-.caja1{
+.caja1 {
     grid-area: caja1;
 }
-.caja2{
+
+.caja2 {
     grid-area: caja2;
 }
-.caja3{
+
+.caja3 {
     grid-area: caja3;
 }
-.caja4{
+
+.caja4 {
     grid-area: caja4;
 }
-.caja5{
+
+.caja5 {
     grid-area: caja5;
 }
 
-.contenedor2{
+.contenedor2 {
     padding: 10px 30px;
     width: 60%;
     height: 400px;
@@ -74,29 +82,33 @@ h4{
         "caja8 caja8 caja9 caja9 caja10";
 }
 
-.caja6{
+.caja6 {
     grid-area: caja6;
 }
-.caja7{
+
+.caja7 {
     grid-area: caja7;
 }
-.caja8{
+
+.caja8 {
     grid-area: caja8;
 }
-.caja9{
+
+.caja9 {
     grid-area: caja9;
 }
-.caja10{
+
+.caja10 {
     grid-area: caja10;
 }
 
 
 @media only screen and (max-width: 768px) {
-    h4{
+    h4 {
         font-size: 30px;
     }
 
-    .contenedor{
+    .contenedor {
         width: 100%;
         height: auto;
         grid-template-columns: repeat(4, 1fr);
@@ -109,13 +121,13 @@ h4{
             "..... caja5 caja5 .....";
     }
 
-    .caja{
+    .caja {
         margin-top: 20px;
         height: 180px;
     }
 
 
-    .contenedor2{
+    .contenedor2 {
         width: 100%;
         height: auto;
         grid-template-columns: repeat(4, 1fr);
@@ -128,4 +140,3 @@ h4{
             "..... caja10 caja10 .....";
     }
 }
-

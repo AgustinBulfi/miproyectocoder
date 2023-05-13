@@ -92,7 +92,7 @@ main {
     height: 250px;
     margin-top: 20px;
 
-    h3{
+    h3 {
         font-size: 20px;
         text-align: center;
         color: rgb(230, 173, 100);
@@ -105,7 +105,7 @@ main {
     height: 250px;
     margin-top: 20px;
 
-    h3{
+    h3 {
         font-size: 20px;
         text-align: center;
         color: rgb(230, 173, 100);
@@ -185,7 +185,7 @@ main {
     display: flex;
     justify-content: space-evenly;
 
-    a{
+    a {
         font-size: 10px;
         text-decoration: none;
         text-align: center;
@@ -193,7 +193,7 @@ main {
         font-family: thewitcher;
     }
 
-    a:hover{
+    a:hover {
         text-shadow: 0px 0px 5px darkred;
         color: rgb(224, 184, 131)
     }
@@ -233,7 +233,7 @@ footer {
     list-style: none;
     display: inline-block;
 
-    a{
+    a {
         border: 3px outset rgb(66, 32, 0);
         padding: 5px;
         background-color: rgb(66, 32, 0);
@@ -243,7 +243,7 @@ footer {
         transition: 0.3s;
     }
 
-    a:hover{
+    a:hover {
         border-color: rgb(83, 41, 1);
         background-color: rgb(83, 41, 1);
         color: rgb(224, 184, 131);
@@ -255,7 +255,7 @@ footer {
 @import "_historia";
 @import "_personajes";
 @import "_informacion";
-
+@import "_mapa";
 
 
 /* Media Query para Index */

@@ -537,6 +537,8 @@ h4 {
   transition: 0.2s;
 }
 .caja a {
+  height: 100%;
+  width: 100%;
   text-decoration: none;
   color: rgb(230, 173, 100);
   background-color: wheat;
@@ -678,6 +680,79 @@ h3 {
   }
   .contRow strong {
     font-size: 17px;
+  }
+}
+h1 {
+  text-shadow: 2px 2px 5px black;
+  font-size: 25px;
+  margin-bottom: 0;
+  padding: 10px;
+  font-family: TheWitcher;
+  color: rgb(230, 173, 100);
+  text-align: center;
+}
+
+.contMapas {
+  padding: 0 10px 10px 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "mapa1 mapa1 mapa2 mapa2 mapa3 mapa3" "..... mapa4 mapa4 mapa5 mapa5 .....";
+}
+
+.mapas {
+  background-color: wheat;
+  transition: 0.5s;
+  box-shadow: 2px 2px 6px black;
+}
+.mapas img {
+  box-sizing: border-box;
+  width: 100%;
+}
+.mapas a {
+  text-decoration: none;
+}
+
+.mapas:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.mapa1 {
+  grid-area: mapa1;
+}
+
+.mapa2 {
+  grid-area: mapa2;
+}
+
+.mapa3 {
+  grid-area: mapa3;
+}
+
+.mapa4 {
+  grid-area: mapa4;
+}
+
+.mapa5 {
+  grid-area: mapa5;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  .contMapas {
+    padding: 0 10px 10px 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "mapa1" "mapa2" "mapa3" "mapa4" "mapa5";
   }
 }
 /* Media Query para Index */
