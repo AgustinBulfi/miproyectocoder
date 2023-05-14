@@ -3,7 +3,7 @@ sec {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #333;
+    background-color: $bgcolor1;
     margin: 10px 20px;
     border: 3px outset #252525;
     height: auto;
@@ -18,8 +18,8 @@ sec {
 h3 {
     padding: 10px;
     text-align: center;
-    font-family: TheWitcher;
-    color: rgb(230, 173, 100);
+    font-family: $mainfont;
+    color: $color1;
     text-shadow: 2px 2px 5px black;
 }
 
@@ -36,7 +36,7 @@ h3 {
     }
 
     strong {
-        color: rgb(230, 173, 100);
+        color: $color1;
         display: flex;
         align-items: center;
         font-size: 15px;

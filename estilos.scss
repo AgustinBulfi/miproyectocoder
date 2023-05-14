@@ -10,6 +10,11 @@
     src: url(Multimedia/Thewitcher-jnOj.ttf);
 }
 
+@import "./sass/variables";
+@import "./sass/historia";
+@import "./sass/personajes";
+@import "./sass/informacion";
+@import "./sass/mapa";
 
 
 .navbar {
@@ -19,16 +24,16 @@
 }
 
 .nav-item {
-    font-family: thewitcher, 'Times New Roman', Times, serif;
+    font-family: $mainfont;
 }
 
 .nav-link {
     background-color: rgb(20, 20, 20);
-    border: 3px outset rgb(66, 32, 0);
+    border: 3px outset $color3;
     padding-left: 10px !important;
-    background-color: rgb(66, 32, 0);
+    background-color: $color3;
     margin: 2px 10px 2px 10px;
-    color: rgb(230, 173, 100) !important;
+    color: $color1 !important;
     transition: 0.5s;
 }
 
@@ -42,9 +47,9 @@
 }
 
 .navbar-toggler {
-    border: 3px outset rgb(66, 32, 0);
+    border: 3px outset $color3;
     padding: 5px;
-    background-color: rgb(66, 32, 0);
+    background-color: $color3;
     margin: 10px;
     transition: 0.2s;
 }
@@ -59,14 +64,14 @@
 }
 
 .fa-bars {
-    color: rgb(230, 173, 100);
+    color: $color1;
 }
 
 main {
     background-image: url(./Multimedia/zZLPZaO.jpg);
     height: 100%;
     width: auto;
-    background-color: #333;
+    background-color: $bgcolor1;
     background-size: cover;
     background-position: center;
 }
@@ -80,13 +85,6 @@ main {
     height: auto;
 }
 
-// .tituloTrailer {
-//     font-size: 20px;
-//     text-align: center;
-//     color: rgb(230, 173, 100);
-//     font-family: thewitcher;
-// }
-
 .trailer1 {
     width: auto;
     height: 250px;
@@ -95,8 +93,8 @@ main {
     h3 {
         font-size: 20px;
         text-align: center;
-        color: rgb(230, 173, 100);
-        font-family: thewitcher;
+        color: $color1;
+        font-family: $mainfont;
     }
 }
 
@@ -108,8 +106,8 @@ main {
     h3 {
         font-size: 20px;
         text-align: center;
-        color: rgb(230, 173, 100);
-        font-family: thewitcher;
+        color: $color1;
+        font-family: $mainfont;
     }
 }
 
@@ -136,7 +134,7 @@ main {
 }
 
 .principal:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.3s;
     filter: none;
 }
@@ -155,7 +153,7 @@ main {
 }
 
 .primerdlc:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.3s;
     filter: none;
 }
@@ -174,7 +172,7 @@ main {
 }
 
 .segundodlc:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.3s;
     filter: none;
 }
@@ -189,8 +187,8 @@ main {
         font-size: 10px;
         text-decoration: none;
         text-align: center;
-        color: rgb(230, 173, 100);
-        font-family: thewitcher;
+        color: $color1;
+        font-family: $mainfont;
     }
 
     a:hover {
@@ -215,8 +213,8 @@ footer {
     display: flex;
     flex-direction: column;
     bottom: 0;
-    color: rgb(230, 173, 100);
-    font-family: thewitcher;
+    color: $color1;
+    font-family: $mainfont;
     text-align: center;
     background-color: rgb(20, 20, 20);
     border-top: 3px intset #2e2e2e;
@@ -234,11 +232,11 @@ footer {
     display: inline-block;
 
     a {
-        border: 3px outset rgb(66, 32, 0);
+        border: 3px outset $color3;
         padding: 5px;
-        background-color: rgb(66, 32, 0);
+        background-color: $color3;
         margin: 10px;
-        color: rgb(230, 173, 100);
+        color: $color1;
         text-decoration: none;
         transition: 0.3s;
     }
@@ -252,10 +250,6 @@ footer {
     }
 }
 
-@import "_historia";
-@import "_personajes";
-@import "_informacion";
-@import "_mapa";
 
 
 /* Media Query para Index */

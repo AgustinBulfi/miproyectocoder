@@ -8,231 +8,6 @@
   font-family: thewitcher;
   src: url(Multimedia/Thewitcher-jnOj.ttf);
 }
-.navbar {
-  /* height: 60px !important; */
-  background-color: rgb(20, 20, 20);
-  border-bottom: 3px outset #2e2e2e;
-}
-
-.nav-item {
-  font-family: thewitcher, "Times New Roman", Times, serif;
-}
-
-.nav-link {
-  background-color: rgb(20, 20, 20);
-  border: 3px outset rgb(66, 32, 0);
-  padding-left: 10px !important;
-  background-color: rgb(66, 32, 0);
-  margin: 2px 10px 2px 10px;
-  color: rgb(230, 173, 100) !important;
-  transition: 0.5s;
-}
-
-.nav-link:hover {
-  border-color: rgb(83, 41, 1);
-  background-color: rgb(83, 41, 1);
-  color: rgb(224, 184, 131);
-  text-shadow: 0px 0px 5px rgb(219, 219, 219);
-  transition: 0.3s;
-  transform: scale(0.9);
-}
-
-.navbar-toggler {
-  border: 3px outset rgb(66, 32, 0);
-  padding: 5px;
-  background-color: rgb(66, 32, 0);
-  margin: 10px;
-  transition: 0.2s;
-}
-
-.navbar-toggler:hover {
-  border-color: rgb(83, 41, 1);
-  background-color: rgb(83, 41, 1);
-  color: rgb(224, 184, 131);
-  text-shadow: 0px 0px 5px rgb(219, 219, 219);
-  transition: 0.2s;
-  transform: scale(0.9);
-}
-
-.fa-bars {
-  color: rgb(230, 173, 100);
-}
-
-main {
-  background-image: url(./Multimedia/zZLPZaO.jpg);
-  height: 100%;
-  width: auto;
-  background-color: #333;
-  background-size: cover;
-  background-position: center;
-}
-
-.trailers {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-}
-
-.trailer1 {
-  width: auto;
-  height: 250px;
-  margin-top: 20px;
-}
-.trailer1 h3 {
-  font-size: 20px;
-  text-align: center;
-  color: rgb(230, 173, 100);
-  font-family: thewitcher;
-}
-
-.trailer2 {
-  width: auto;
-  height: 250px;
-  margin-top: 20px;
-}
-.trailer2 h3 {
-  font-size: 20px;
-  text-align: center;
-  color: rgb(230, 173, 100);
-  font-family: thewitcher;
-}
-
-.imagenes {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  height: auto;
-}
-
-.principal {
-  border-radius: 5px;
-  display: flex;
-  height: 110px;
-  width: 200px;
-  background-image: url(./Multimedia/The-Witcher-3.jpg);
-  background-size: cover;
-  background-position: center;
-  transition: 0.3s;
-  filter: grayscale(100%);
-}
-
-.principal:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-  filter: none;
-}
-
-.primerdlc {
-  border-radius: 5px;
-  justify-content: space-between;
-  display: flex;
-  height: 110px;
-  width: 200px;
-  background-image: url(./Multimedia/Tw3_expansion_pack_hos.jpg);
-  background-size: cover;
-  background-position: center;
-  transition: 0.3s;
-  filter: grayscale(100%);
-}
-
-.primerdlc:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-  filter: none;
-}
-
-.segundodlc {
-  border-radius: 5px;
-  justify-content: space-between;
-  display: flex;
-  height: 110px;
-  width: 200px;
-  background-image: url(./Multimedia/the_witcher_3_blood_and_wine_expansion_art_1.jpg);
-  background-size: cover;
-  background-position: center;
-  transition: 0.3s;
-  filter: grayscale(100%);
-}
-
-.segundodlc:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-  filter: none;
-}
-
-.nombres {
-  margin-bottom: 10px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-evenly;
-}
-.nombres a {
-  font-size: 10px;
-  text-decoration: none;
-  text-align: center;
-  color: rgb(230, 173, 100);
-  font-family: thewitcher;
-}
-.nombres a:hover {
-  text-shadow: 0px 0px 5px darkred;
-  color: rgb(224, 184, 131);
-}
-
-.container {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 70%;
-}
-
-.imgCarousel {
-  height: 100%;
-  width: 100%;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  bottom: 0;
-  color: rgb(230, 173, 100);
-  font-family: thewitcher;
-  text-align: center;
-  background-color: rgb(20, 20, 20);
-  border-top: 3px intset #2e2e2e;
-  height: auto;
-  width: 100%;
-}
-
-.redes {
-  font-size: 20px;
-}
-
-.redes li {
-  list-style: none;
-  display: inline-block;
-}
-.redes li a {
-  border: 3px outset rgb(66, 32, 0);
-  padding: 5px;
-  background-color: rgb(66, 32, 0);
-  margin: 10px;
-  color: rgb(230, 173, 100);
-  text-decoration: none;
-  transition: 0.3s;
-}
-.redes li a:hover {
-  border-color: rgb(83, 41, 1);
-  background-color: rgb(83, 41, 1);
-  color: rgb(224, 184, 131);
-  text-shadow: 0px 0px 5px rgb(219, 219, 219);
-  transition: 0.3s;
-}
-
 .cont1 {
   display: flex;
   flex-direction: row;
@@ -316,7 +91,7 @@ h2 {
   text-shadow: 0 0 5px #333;
   color: rgb(230, 173, 100);
   background-color: rgb(49, 29, 4);
-  font-family: thewitcher;
+  font-family: TheWitcher, "Times New Roman", Times, serif;
   text-shadow: 4px 2px 2px black;
 }
 
@@ -328,6 +103,9 @@ h2 {
 .subtitulo a {
   color: rgb(230, 173, 100);
   text-decoration: none;
+}
+.subtitulo a:hover {
+  text-shadow: 0px 0px 5px darkred;
 }
 
 @media only screen and (min-width: 0px) {
@@ -508,7 +286,7 @@ h4 {
   text-shadow: 2px 2px 5px black;
   text-align: center;
   padding-top: 30px;
-  font-family: TheWitcher;
+  font-family: TheWitcher, "Times New Roman", Times, serif;
   color: rgb(230, 173, 100);
 }
 
@@ -642,7 +420,7 @@ sec p {
 h3 {
   padding: 10px;
   text-align: center;
-  font-family: TheWitcher;
+  font-family: TheWitcher, "Times New Roman", Times, serif;
   color: rgb(230, 173, 100);
   text-shadow: 2px 2px 5px black;
 }
@@ -687,7 +465,7 @@ h1 {
   font-size: 25px;
   margin-bottom: 0;
   padding: 10px;
-  font-family: TheWitcher;
+  font-family: TheWitcher, "Times New Roman", Times, serif;
   color: rgb(230, 173, 100);
   text-align: center;
 }
@@ -704,6 +482,7 @@ h1 {
 }
 
 .mapas {
+  border-radius: 10px;
   background-color: wheat;
   transition: 0.5s;
   box-shadow: 2px 2px 6px black;
@@ -755,6 +534,231 @@ h1 {
     grid-template-areas: "mapa1" "mapa2" "mapa3" "mapa4" "mapa5";
   }
 }
+.navbar {
+  /* height: 60px !important; */
+  background-color: rgb(20, 20, 20);
+  border-bottom: 3px outset #2e2e2e;
+}
+
+.nav-item {
+  font-family: TheWitcher, "Times New Roman", Times, serif;
+}
+
+.nav-link {
+  background-color: rgb(20, 20, 20);
+  border: 3px outset rgb(66, 32, 0);
+  padding-left: 10px !important;
+  background-color: rgb(66, 32, 0);
+  margin: 2px 10px 2px 10px;
+  color: rgb(230, 173, 100) !important;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  border-color: rgb(83, 41, 1);
+  background-color: rgb(83, 41, 1);
+  color: rgb(224, 184, 131);
+  text-shadow: 0px 0px 5px rgb(219, 219, 219);
+  transition: 0.3s;
+  transform: scale(0.9);
+}
+
+.navbar-toggler {
+  border: 3px outset rgb(66, 32, 0);
+  padding: 5px;
+  background-color: rgb(66, 32, 0);
+  margin: 10px;
+  transition: 0.2s;
+}
+
+.navbar-toggler:hover {
+  border-color: rgb(83, 41, 1);
+  background-color: rgb(83, 41, 1);
+  color: rgb(224, 184, 131);
+  text-shadow: 0px 0px 5px rgb(219, 219, 219);
+  transition: 0.2s;
+  transform: scale(0.9);
+}
+
+.fa-bars {
+  color: rgb(230, 173, 100);
+}
+
+main {
+  background-image: url(./Multimedia/zZLPZaO.jpg);
+  height: 100%;
+  width: auto;
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+}
+
+.trailers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.trailer1 {
+  width: auto;
+  height: 250px;
+  margin-top: 20px;
+}
+.trailer1 h3 {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(230, 173, 100);
+  font-family: TheWitcher, "Times New Roman", Times, serif;
+}
+
+.trailer2 {
+  width: auto;
+  height: 250px;
+  margin-top: 20px;
+}
+.trailer2 h3 {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(230, 173, 100);
+  font-family: TheWitcher, "Times New Roman", Times, serif;
+}
+
+.imagenes {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.principal {
+  border-radius: 5px;
+  display: flex;
+  height: 110px;
+  width: 200px;
+  background-image: url(./Multimedia/The-Witcher-3.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  filter: grayscale(100%);
+}
+
+.principal:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  filter: none;
+}
+
+.primerdlc {
+  border-radius: 5px;
+  justify-content: space-between;
+  display: flex;
+  height: 110px;
+  width: 200px;
+  background-image: url(./Multimedia/Tw3_expansion_pack_hos.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  filter: grayscale(100%);
+}
+
+.primerdlc:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  filter: none;
+}
+
+.segundodlc {
+  border-radius: 5px;
+  justify-content: space-between;
+  display: flex;
+  height: 110px;
+  width: 200px;
+  background-image: url(./Multimedia/the_witcher_3_blood_and_wine_expansion_art_1.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  filter: grayscale(100%);
+}
+
+.segundodlc:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  filter: none;
+}
+
+.nombres {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nombres a {
+  font-size: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(230, 173, 100);
+  font-family: TheWitcher, "Times New Roman", Times, serif;
+}
+.nombres a:hover {
+  text-shadow: 0px 0px 5px darkred;
+  color: rgb(224, 184, 131);
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.imgCarousel {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  color: rgb(230, 173, 100);
+  font-family: TheWitcher, "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+  border-top: 3px intset #2e2e2e;
+  height: auto;
+  width: 100%;
+}
+
+.redes {
+  font-size: 20px;
+}
+
+.redes li {
+  list-style: none;
+  display: inline-block;
+}
+.redes li a {
+  border: 3px outset rgb(66, 32, 0);
+  padding: 5px;
+  background-color: rgb(66, 32, 0);
+  margin: 10px;
+  color: rgb(230, 173, 100);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.redes li a:hover {
+  border-color: rgb(83, 41, 1);
+  background-color: rgb(83, 41, 1);
+  color: rgb(224, 184, 131);
+  text-shadow: 0px 0px 5px rgb(219, 219, 219);
+  transition: 0.3s;
+}
+
 /* Media Query para Index */
 @media only screen and (min-width: 0px) {
   .container {

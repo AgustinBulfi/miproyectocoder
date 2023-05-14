@@ -3,8 +3,8 @@ h1 {
     font-size: 25px;
     margin-bottom: 0;
     padding: 10px;
-    font-family: TheWitcher;
-    color: rgb(230, 173, 100);
+    font-family: $mainfont;
+    color: $color1;
     text-align: center;
 }
 
@@ -21,6 +21,7 @@ h1 {
 }
 
 .mapas {
+    border-radius: 10px;
     background-color: wheat;
     transition: 0.5s;
     box-shadow: 2px 2px 6px black;

@@ -34,7 +34,7 @@
     margin: 10px;
     height: auto;
     width: 380px;
-    background-color: #333;
+    background-color: $bgcolor1;
     background-image: url(./Multimedia/Tw3_expansion_pack_hos.jpg);
     background-size: cover;
     background-position: center;
@@ -60,7 +60,7 @@
     margin: 10px;
     height: auto;
     width: 380px;
-    background-color: #333;
+    background-color: $bgcolor1;
     background-image: url(./Multimedia/the_witcher_3_blood_and_wine_expansion_art_1.jpg);
     background-size: cover;
     background-position: center;
@@ -80,22 +80,26 @@ h2 {
     text-align: center;
     padding: 10px;
     border-bottom: 5px solid rgb(65, 38, 5);
-    text-shadow: 0 0 5px #333;
-    color: rgb(230, 173, 100);
-    background-color: rgb(49, 29, 4);
-    font-family: thewitcher;
+    text-shadow: 0 0 5px $bgcolor1;
+    color: $color1;
+    background-color: $color2;
+    font-family: $mainfont;
     text-shadow: 4px 2px 2px black;
 }
 
 
 .subtitulo {
     font-size: 13px;
-    color: rgb(230, 173, 100);
+    color: $color1;
     list-style: upper-roman;
 
     a {
-        color: rgb(230, 173, 100);
+        color: $color1;
         text-decoration: none;
+    }
+
+    a:hover {
+        text-shadow: $textshadowa;
     }
 }
 

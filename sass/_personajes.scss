@@ -2,8 +2,8 @@ h4 {
     text-shadow: 2px 2px 5px black;
     text-align: center;
     padding-top: 30px;
-    font-family: TheWitcher;
-    color: rgb(230, 173, 100);
+    font-family: $mainfont;
+    color: $color1;
 }
 
 .contenedor {
@@ -37,7 +37,7 @@ h4 {
         height: 100%;
         width: 100%;
         text-decoration: none;
-        color: rgb(230, 173, 100);
+        color: $color1;
         background-color: wheat;
         font-size: 18px;
     }
