@@ -336,6 +336,7 @@ h4 {
   width: 100%;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: ".......... personaje1 personaje1 personaje2 personaje2 personaje3 personaje3 ........." ".......... .......... personaje4 personaje4 personaje5 personaje5 .......... ..........";
 }
 
 .personaje {
